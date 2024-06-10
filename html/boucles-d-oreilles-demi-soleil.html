@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/accueil.css">
+    <link rel="stylesheet" href="../css/no-produits.css">
+    <link rel="stylesheet" href="../css/produit.css">
+    <title>Boutique prêt à porter femme en ligne | Joya le store</title>
+
+</head>
+<body>
+    <div class="overview-basket">
+        <div>
+            <img src="../img/basket-shopping.png" alt="Shop">
+        </div>
+        <div class="nb_in_basket">
+            <p>0</p>
+        </div>
+    </div>
+    <header>
+        <div class="top-info">
+            <div class="infos">
+                <div class="info" id="info-1">
+                    <img src="../img/ico_customer_service.png" id="ico_customer_service" alt="ico_customer_service">
+                    <div>Service client au : <a href="">06 49 54 94 19</a></div>
+                </div>
+                <div class="info" id="info-2">
+                    <img src="../img/ico_shipping.png" id="ico_shipping" alt="ico_shipping">
+                    <div>Livraison Mondial Relay offerte à partir de 100€</div>
+                </div>
+                <div class="info" id="info-3">
+                    <img src="../img/ico_click_collect.png" id="ico_click_collect.png" alt="ico_click_collect.png">
+                    <div>Click & Collect - La Grande Motte</div>
+                </div>
+            </div>
+        </div>
+        <div class="middle-info">
+            <div class="top-middle">
+                <div class="search">
+                    <input type="checkbox" id="check-search">
+                    <label for="check-search" id="img-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="img-search">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </label>
+                    <label for="check-search" id="img-croix">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                          </svg>
+                    </label>
+                    <form action="#">
+                        <input type="text" placeholder="Faire une recherche dans notre catalogue">
+                        <button type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="for_user">
+                    <div class="account">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                            <span>Mon compte</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </a>
+                        <div class="liste_contenu">
+                            <ul>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
+                                    </svg>
+                                    se connecter
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                    </svg>
+                                    Mon compte
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+                                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+                                    </svg>
+                                  Check out
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="basket">
+                        <div class="ttle_basket">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+                                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+                            </svg>
+                            <span>Mon panier</span>
+                        </div>
+                        <div class="nb_in_basket">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="../img/joyalestorecom-logo.png" alt="">
+            </div>
+        </div>
+        <div class="pages">
+            <input type="checkbox" class="menu" id="menu">
+            <label for="menu"><img src="../img/bars.png" alt="" class="bar_menu"></label>
+            <ul>
+                <div class="element">
+                    <a href="">
+                        <li class="page">
+                            <span>PRÊT À PORTER</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </li>
+                    </a>
+                    
+                    <label for="list-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </label>
+                    <input type="checkbox" class="list-check" id="list-1" checked>
+                    <div class="contenu">
+                        <ul>
+                            <a href=""><li>Robes</li></a>
+                            <a href=""><li>Jupes</li></a>
+                            <a href=""><li>Pantalons & Shorts</li></a>
+                            <a href=""><li>Vestes & Manteaux</li></a>
+                            <a href=""><li>Tee-shirt</li></a>
+                            <a href=""><li>Débardeurs</li></a>
+                            <a href=""><li>Chemisiers</li></a>
+                            <a href=""><li>Pulls & Gilets</li></a>
+                            <a href=""><li>Drop de la semaine</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="element">
+                    <a href="chaussures.html">
+                        <li class="page">
+                            <span>CHAUSSURES</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </li>
+                    </a>
+                    <label for="list-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </label>
+                    <input type="checkbox" class="list-check" id="list-2" name="check" checked>
+                    <div class="contenu">
+                        <ul>
+                            <a href=""><li>Baskets</li></a>
+                            <a href=""><li>Escarpins</li></a>
+                            <a href=""><li>Sandales</li></a>
+                            <a href=""><li>Bottes & Bottines</li></a>
+                            <a href=""><li>Mocassins</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="element">
+                    <a href="accessoires.html">
+                        <li class="page">
+                            <span>ACCESSOIRES</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </li>
+                    </a>
+                    <label for="list-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </label>
+                    <input type="checkbox" class="list-check" id="list-3" checked>
+                    <div class="contenu">
+                        <ul>
+                            <a href=""><li>Ceintures</li></a>
+                            <a href=""><li>Lunettes</li></a>
+                            <a href=""><li>Casquettes & Chapeaux</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="element">
+                    <a href="sacs-et-maroquinerie.html">
+                        <li class="page">
+                            <span>SAC & PETITE MAROQUINERIE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                              </svg>
+                        </li>
+                    </a>
+                
+                    <label for="list-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </label>
+                    <input type="checkbox" class="list-check" id="list-4" checked>
+                    <div class="contenu">
+                        <ul>
+                            <a href=""><li>Sacs à bandoulière</li></a>
+                            <a href=""><li>Sacs cabas</li></a>
+                            <a href=""><li>Pochettes</li></a>
+                            <a href=""><li>Portefeuilles & Monnaie</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="element">
+                    <a href="bijoux.html">
+                        <li class="page">
+                            <span>BIJOUX</span>
+                        </li>
+                    </a>
+                </div>
+                <div class="element">
+                    <a href="">
+                        <li class="page">
+                            <span>HOMME</span>
+                        </li>
+                    </a>
+                </div>
+                <div class="element">
+                    <a href="">
+                        <li class="page">
+                            <span>NOUVELLE COLLECTION</span>
+                        </li>
+                    </a>
+                </div>
+                <div class="element">
+                    <a href="">
+                        <li class="page">
+                            <span>PROMO</span>
+                        </li>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <section class="center">
+        <div class="affichage">
+            <div class="center-link">
+                <div class="link">
+                    <p>
+                        <span>
+                            <a href="accueil.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                            </svg>
+                            </a>
+                        </span>
+                        <span>/</span>
+                        <span><a href="">Tous les produits</a></span> 
+                        <span>/</span>
+                        <span><a href="bijoux.html">Bijoux</a></span>
+                        <span>/</span> 
+                        <span><a href="" id="onpage"> Boucles d'oreilles pendantes demi soleil</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenu-page">
+            <div class="apercus">
+                <div class="apercu-produit">
+                    <img src="../img/boucles-d-oreilles-pendantes-demi-soleil-.jpg" alt="">
+                    <div class="zoom">
+                        <input type="checkbox" id="zoomer">
+                        <label for="zoomer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+                                <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+                                <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+                            </svg>
+                        </label>   
+                    </div>
+                </div>
+                <div class="differents-apercu">
+                    <div class="apercu">
+                        <div><img src="../img/boucles-d-oreilles-pendantes-demi-soleil-.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="apercu-descrit">
+                <h1 class="nom-produit">Boucles d'oreilles pendantes demi soleil</h1>
+                <h1 class="prix-produit">19,00 €</h1>
+                <h3 class="descrit-produit">Boucles en acier inoxydable légère 3x4 cm </h3>
+                <div class="quantite">
+                    <div class="label-nombres">
+                        <p>Quantité</p>
+                    </div>
+                    <div class="ajout-quantite">
+                        <div class="elevation bouton-diminuer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </div>
+                        <div class="nombre">1</div>
+                        <div class="elevation bouton-ajout">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="ajout-panier">
+                    <div class="ajouter-panier">
+                        <p>ajouter panier</p>
+                    </div>
+                    <div class="alertes">
+                        <p class="alerte">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                            </svg>
+                        </p>
+                        <p>
+                            Derniers articles en stock
+                        </p>
+                    </div>
+                </div>
+                <div class="offres">
+                    <div class="block_offre">
+                        <img src="../img/rea_customer_service.png" alt="">
+                        <h4 class="offre_titre">Service Client</h4>
+                        <h4>au 06 49 54 94 19</h4>
+                    </div>
+                    <div class="block_offre">
+                        <img src="../img/reassurance-joya-le-store-moyens-paiements.png" alt="">
+                        <h4 class="offre_titre">Paiement sécurisé</h4>
+                        <h4>& 3x sans frais avec Alma</h4>
+                    </div>
+                    <div class="block_offre">
+                        <img src="../img/rea_shipping.png" alt="">
+                        <h4 class="offre_titre">Livraison Mondial Relay</h4>
+                        <h4>offerte à partir de 100€</h4>
+                    </div>
+                    <div class="block_offre">
+                        <img src="../img/rea_click_collect.png" alt="">
+                        <h4 class="offre_titre">Click & Collect</h4>
+                        <h4>à La Grande Motte</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reference">
+            <h1>DÉTAILS DU PRODUIT / AVIS</h1>
+            <p><span>Référence</span> Boucles d'oreilles pendantes demi soleil</p>
+            <p><span>En stock</span> 2 Produits</p>
+            <form action="">
+                <input type="mail" placeholder="votre@email.com">
+                <input type="submit" value="Prévenez-moi lorsque le produit est disponible">
+            </form>
+            <div class="fiche">
+                <p>Fiche technique</p>
+                <div class="detail">
+                    <div>Matière(S)</div>
+                    <div>Acier inoxidable</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="top-footer">
+            <img src="../img/banner_magasin_lagrandemotte.jpg" alt="">
+        </div>
+        <div class="middle-footer">
+            <div class="first-part">
+                <div class="propos">
+                    <img src="../img/joyalestorecom-logo.png" alt="">
+                    <h2>À PROPOS DE NOUS</h2>
+                    <input type="checkbox">
+                    <div>
+                        <div class="details">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                            </svg>
+                            <div>25 Quai Charles de Gaulle, LA GRANDE MOTTE, France</div>
+                        </div>
+                        <div class="details">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            </svg>
+                            <div>06 49 54 94 19</div>
+                        </div>
+                        <div class="details">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg>
+                            <div><a href="">no-reply@joyalestore.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sur_joya">
+                    <div class="categorie">
+                        <h2>CATÉGORIE</h2>
+                        <input type="checkbox">
+                        <ul>
+                            <li>Prêt à porter</li>
+                            <li>Chaussures</li>
+                            <li>Accessoires</li>
+                            <li>Sacs & Petite maroquinerie</li>
+                            <li>Carte cadeau</li>
+                        </ul>
+                    </div>
+                    <div class="informations">
+                        <h2>INFORMATIONS</h2>
+                        <input type="checkbox">
+                        <ul>
+                            <li>Mentions légales</li>
+                            <li>Conditions d'utilisation et de vente</li>
+                            <li>Paiement sécurisé</li>
+                            <li>Retour et échanges</li>
+                            <li>Contactez-nous</li>
+                        </ul>
+                    </div>
+                    <div class="suivi">
+                        <h2>SUIVEZ NOUS</h2>
+                        <div class="reseau">
+                            <div class="en-tete">
+                                <img src="../img/sac-pochette.jpg" alt="" class="fond">
+                                <img src="../img/logo.jpg" alt="" class="profil">
+                                <h1>joya le store</h1>
+                            </div>
+                            <div class="corps">
+                                <div class="publication">
+                                    <div class="images">
+                                        <img src="../img/1.jpg" alt="">
+                                    </div>
+                                    <div class="biographie">
+                                        <img src="../img/logo.jpg" alt="" class="lg">
+                                        <div class="nom-compte">
+                                            <h6>JOYA le store</h6>
+                                            <p>about 3 weeks</p>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                        </svg>
+                                    </div>
+                                    <div class="texte">
+                                        <p>
+                                            1 robe, 2 looks,2 occasions 👌👌 en quel mode la préférez-vous ? Robe dispo sur notre sur joyalestore.com #joyalestore #lagrandemotte #ootd #ootdfashion #mode #fashion #outfit #outfitoftheday #outfitinspo #fashionblogger #leopardaddict #lovethislook #summervibes #reeloftheday #enjoylife                                        
+                                        </p>
+                                    </div>
+                                    <hr>
+                                    <div class="reaction">
+                                        <div class="like">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                            </svg>
+                                            <p>Like</p>
+                                        </div>
+                                        <div class="comment">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                            </svg>
+                                            <p>Comment</p>
+                                        </div>
+                                        <div class="share">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                                            </svg>
+                                            <p>share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="publication">
+                                    <div class="biographie">
+                                        <img src="../img/logo.jpg" alt="" class="lg">
+                                        <div class="nom-compte">
+                                            <h6>JOYA le store</h6>
+                                            <p>about 3 weeks</p>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                        </svg>
+                                    </div>
+                                    <div class="texte">
+                                        <p>
+                                            Très très fan de cette petite touche de vert d’eau, vous validez ce nouveau modèle @semerdjianchaussures ? La parfaite sneaker féminine ! On l’imagine avec un total look denim 👌👌🌊🌊 modèle dispo sur notre site joyalestore.com et dans votre boutique de la grande motte #semerdjian #mode #sneakers #summervibes #summersneakers #fashion #glitter #joparis2024 #picoftheday #enjoylife #smr #summeriscoming                                        
+                                        </p>
+                                    </div>
+                                    <div class="images-multiple">
+                                        <img src="../img/2-2.jpg" alt="" class="i1">
+                                        <img src="../img/2-3.jpg" alt="" class="i2">
+                                        <img src="../img/2-1.jpg" alt="" class="i3">
+                                    </div>
+                                    <hr>
+                                    <div class="reaction">
+                                        <div class="like">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                            </svg>
+                                            <p>4</p>
+                                        </div>
+                                        <div class="comment">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                            </svg>
+                                            <p>Comment</p>
+                                        </div>
+                                        <div class="share">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                                            </svg>
+                                            <p>share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="publication">
+                                    <div class="images">
+                                        <img src="../img/3.jpg" alt="">
+                                    </div>
+                                    <div class="biographie">
+                                        <img src="../img/logo.jpg" alt="" class="lg">
+                                        <div class="nom-compte">
+                                            <h6>JOYA le store</h6>
+                                            <p>about 3 weeks</p>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                        </svg>
+                                    </div>
+                                    <div class="texte">
+                                        <p>
+                                            Alerte PEPITASSSEEEEE 🔥🔥 quel modèle préférez vous ? La combi kaki en mode habillé ou la combi léopard en mode sport chic ? #reeloftheday #mode #eshop #fashion #lagrandemotte #summeriscoming #ootd #ootdfashion #newcollection #enjoy #lifeisgood #jo #summervibes                                    
+                                        </p>
+                                        </div>
+                                    <hr>
+                                    <div class="reaction">
+                                        <div class="like">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                            </svg>
+                                            <p>4</p>
+                                        </div>
+                                        <div class="comment">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                            </svg>
+                                            <p>Comment</p>
+                                        </div>
+                                        <div class="share">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                                            </svg>
+                                            <p>share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="publication">
+                                    <div class="images">
+                                        <img src="../img/4.jpg" alt="">
+                                    </div>
+                                    <div class="biographie">
+                                        <img src="../img/logo.jpg" alt="" class="lg">
+                                        <div class="nom-compte">
+                                            <h6>JOYA le store</h6>
+                                            <p>about 3 weeks</p>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                        </svg>
+                                    </div>
+                                    <div class="texte">
+                                        <p>
+                                            Alors on L O V E cette tenue ???? Juste un petit réel mignon pour vous dire qu’on vous love ❤️ nous vous souhaitons une belle semaine 😘😘 #joyalestore #lagrandemotte #shopping #mode #love #loveislove #summeriscoming #fashion #reeloftheday #enjoylife #lifeisgood                                    
+                                        </p>
+                                        </div>
+                                    <hr>
+                                    <div class="reaction">
+                                        <div class="like">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                            </svg>
+                                            <p>6</p>
+                                        </div>
+                                        <div class="comment">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                            </svg>
+                                            <p>Comment</p>
+                                        </div>
+                                        <div class="share">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                                            </svg>
+                                            <p>share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="publication">
+                                    <div class="images">
+                                        <img src="../img/5.jpg" alt="">
+                                    </div>
+                                    <div class="biographie">
+                                        <img src="../img/logo.jpg" alt="" class="lg">
+                                        <div class="nom-compte">
+                                            <h6>JOYA le store</h6>
+                                            <p>about 3 weeks</p>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" id="facebook">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                        </svg>
+                                    </div>
+                                    <div class="texte">
+                                        <p>
+                                            Mentionne une amie qui aurait besoin de suivre les conseils de son mari, ou sinon continue d’y aller « mollo » sur la carte et rdv sur le site joyalestore.com🤣🤣 #joyalestore #mode #fashion #réel #shopping #shoppingaddict #enjoylife #justforfun #reeloftheday #shoppingonline #lagrandemotte #ootd #ootdfashion
+                                        </p>    
+                                    </div>
+                                    <hr>
+                                    <div class="reaction">
+                                        <div class="like">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
+                                                <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+                                            </svg>
+                                            <p>5</p>
+                                        </div>
+                                        <div class="comment">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                            </svg>
+                                            <p>Comment</p>
+                                        </div>
+                                        <div class="share">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                                            </svg>
+                                            <p>share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <img src="../img/logo-instagram-joyalestore.png" alt="">
+                            <div> Retrouvez Joya le Store sur Instagram !</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-part">
+                <h2>Inscription à la newsletter </h2>
+                <p>Vous pouvez vous désinscrire à tout moment. Vous trouverez pour cela nos informations de contact dans les conditions d'utilisation du site.</p>
+                <form action="#">
+                    <input type="email" placeholder="VOTRE E-MAIL...">
+                    <input type="submit" value="SOUSCRIRE">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <span class="creation">© 2024 - Créé par l'ANFCI </span>
+        </div>
+    </footer>
+</body>
+</html>

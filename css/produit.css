@@ -1,0 +1,275 @@
+.contenu-page{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.apercu-produit, .apercu-descrit{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+.apercus{
+    text-align: center;
+}
+.apercu-produit img{
+    width: 98%;
+    height: 100%;
+}
+.apercu{
+    width: 98%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.apercu div{
+    width: 100px;
+    height: 110px;
+    border: 1px solid #d5959e;
+    margin: auto;
+}
+.differents-apercu img{
+    width: 100%;
+    height: 100%;
+}
+.apercu-produit .zoom{
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 10px;
+    right: 5%;
+    bottom: 5%;
+}
+.apercu-produit .zoom:hover {
+    background-color: #d5959e;
+    color: #fff;
+}
+#zoomer{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.apercu-descrit{
+    padding: 5px 10px;
+}
+.nom-produit{
+    font-size: 49px;
+    font-weight: 100;
+    color: #d5959e;
+    font-family: Amatic SC;
+}
+.prix-produit{
+    font-size: 30px;
+    font-weight: 100;
+    color: #d5959e;
+    font-family: Open Sans Condensed;
+    margin-top: 30px;
+}
+.descrit-produit{
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 0;
+    color: #353535;
+    font-family: Open Sans Condensed;
+    font-weight: 100;
+    border-bottom: 1px solid #d5959e;
+    margin-top: 10px;
+}
+.quantite{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+}
+.label-nombres{
+    width: 100px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    color: #a9a9a9;
+    font-family: Open Sans Condensed;
+}
+.ajout-quantite{
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.ajout-quantite > div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.nombre{
+    width: 50px;
+    justify-content: center;
+    color: #353535;
+    font-family: Open Sans Condensed;
+}
+.elevation{
+    position: relative;
+
+}
+.elevation:hover::after{
+    content: "";
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    box-shadow: 0px 0px 5px #353535;
+    top: 0;
+    left: 0;
+}
+.ajout-panier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ajouter-panier{
+    width: 150px;
+    text-align: center;
+    background-color: #d5959e;
+    padding: 10px;
+    color: #fff;
+    font-weight: 100;
+    font-family: Open Sans Condensed;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.ajouter-panier:hover{
+    background-color: #a9a9a9;
+}
+.alertes{
+    display: flex;
+    flex-direction: row;
+    margin: auto 15px;
+    font-size: 14px;
+    font-family: Open Sans Condensed;
+    color: #a9a9a9;
+}
+.alerte{
+    color: #f19021;
+    margin: auto 5px;
+}
+.offres{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #d5959e;
+    width: 98%;
+}
+.block_offre{
+    display: flex;
+    flex-direction: row;
+}
+.block_offre img{
+    width: 35px;
+    height: 35px;
+}
+.block_offre h4{
+    margin: 5px;
+    font-size: 15px;
+    font-family: Open Sans Condensed;
+    font-weight: 100;
+    color: #000;
+}
+.block_offre:hover .offre_titre{
+    letter-spacing: 0px;
+}
+
+.reference{
+    width: 1170px;
+    margin: 30px auto;
+}
+.reference > h1{
+    width: 100%;
+    text-align: center;
+    font-family: Open Sans Condensed;
+    font-weight: 100;
+}
+.reference p{
+    margin: 10px 0;
+    font-size: 15px;
+    color: #797979;
+    font-family: Open Sans Condensed;
+}
+.reference span{
+    color: #353535;
+    font-weight: 700;
+}
+.reference form > *{
+    display: block;
+    padding: 5px;
+}
+.reference::placeholder{
+    color: #000;
+}
+.reference input[type="submit"]{
+    padding: 10px;
+    background-color: #d5959e;
+    border: none;
+    font-family: Open Sans Condensed;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.fiche{
+    margin: 10px 0 100px 0;
+}
+.detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+}
+.detail div{
+    width: 98%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 14px;
+    color: #797979;
+    font-family: Open Sans Condensed;
+}
+
+@media screen and (max-width: 1200px) {
+    .reference{
+        width: 980px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .reference{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .contenu-page{
+        grid-template-columns: 1fr;
+    }
+    .apercu div{
+        width: 200px;
+        height: 210px;
+    }
+    .differents-apercu img{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .apercu div{
+        width: 98%;
+    }
+    .differents-apercu img{
+        height: 100%;
+    }
+
+}

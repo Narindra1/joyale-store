@@ -1,0 +1,324 @@
+.filtrage{
+    width: 1170px;
+    margin: 50px auto 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+    align-content: center;
+    align-items: center;
+    font-family: Open Sans Condensed;
+}
+.evaluation-produits{
+    color: #727272;
+    font-size: 12px;   
+}
+.type{
+    display: flex;
+    flex-direction: row;
+}
+.filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #727272;
+}
+.block-trie{
+    position: relative;
+}
+.par{
+    margin: auto 15px;
+    font-size: 15px;
+}
+.trie-actuel{
+    border: 1px solid #eee;
+    text-align: left;
+    font-size: 12px;
+    padding: 6px;
+    width: 400px;
+}
+#trie{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    opacity: 0;
+}
+.trier{
+    text-transform: uppercase;
+    background-color: #d5959e;
+    border: none;
+    border-radius: 2px;
+    font-family: Open Sans Condensed;
+    display: none;
+}
+.trier:hover{
+    background-color: #727272;
+}
+.trier a{
+    padding: 6px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+#trie:checked ~ .type-trie{
+    display: block;
+}
+#trie-label{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.type-trie{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    display: none;
+    width: 400px;
+    z-index: 5;
+    border: 1px solid #f1f1f1;
+}
+.type-trie ul{
+    padding: 0;
+}
+.type-trie li{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+.type-trie a{
+    width: 100%;
+    color: #727272;
+    text-decoration: none;
+}
+.type-trie a:hover{
+    color: #fff;
+    background-color: #d5959e;
+}
+.type-trie li:hover{
+    background-color: #d5959e;
+}
+.contenu-page{
+    position: relative;
+}
+.contenu-page > input[type="radio"], #lgrille, #llistes{
+    position: absolute;
+    /* bottom: 100%; */
+    top: 150px;
+}
+.contenu-page > input[type="radio"]{
+    opacity: 0;
+}
+#igrille, #lgrille{
+    left: 15px;
+}
+#ilistes, #llistes{
+    left: 40px;
+}
+.contenu-page > label svg{
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #b6b6b6;
+}
+#igrille:checked ~ .produits .paquet-produits{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#igrille:checked ~ #lgrille{
+    color: #000;
+}
+#igrille:checked ~ #llistes{
+    color: #969696;
+}
+#ilistes:checked ~ .produits .paquet-produits{
+    grid-template-columns: repeat(1,1fr);
+}
+#ilistes:checked ~ #lgrille{
+    color: #969696;
+}
+#ilistes:checked ~ #llistes{
+    color: #000;
+}
+#ilistes:checked ~ .produits .paquet-produits .produit{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+#ilistes:checked ~ .produits .paquet-produits .produit .photo{
+    height: fit-content;
+}
+#ilistes:checked ~ .produits .paquet-produits .produit .descrit-produit{
+    display: block;
+}
+#ilistes:checked ~ .produits .paquet-produits .produit .details_produit{
+    margin: 5px auto;
+}
+.vue-element1{
+    width: 100%;
+    text-align: center;
+    font-family: Open Sans Condensed;
+    font-size: 13px;
+    display: none;
+}
+.produits{
+    width: 1170px;
+}
+.paquet-produits{
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+}
+.produit{
+    width: 100%;
+}
+.produit .photo{
+    width: 95%;
+    height: 450px;
+    margin: auto;
+}
+.produit:hover .photo::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #0000004f;
+    position: absolute;
+    z-index: 5;
+}
+.produit img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transition: 1s;
+}
+.produit:hover img{
+    scale: 1.1;
+}
+.produits .details_produit{
+    width: 95%;
+    margin: auto;
+}
+.prix .rose{
+    color: #e60b8b;
+    text-decoration: none;
+}
+.descrit-produit{
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    color: #727272;
+    display: none;
+}
+.descrit-produit p{
+    padding: 10px 0;
+}
+.pagination{
+    width: 1170px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Open Sans Condensed;
+    font-size: 13px;
+}
+.paginates{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.paginates a{
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+}
+@media screen and (max-width: 1200px) {
+    .filtrage, .produits, .pagination{
+        width: 980px;
+    }
+    .paquet-produits{
+        grid-template-columns: 1fr 1fr;
+    }
+    #igrille:checked ~ .produits .paquet-produits{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 990px) {
+    .filtrage, .produits, .pagination{
+        width: 100%;
+    }
+    .produit .photo{
+        height: fit-content;
+    }
+    .evaluation-produits{
+        display: none;
+    }
+    .filtrage{
+        grid-template-columns: 1fr;
+    }
+    .filtre{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .filtre{
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .block-trie{
+        width: 75%;
+    }
+    .par{
+        display: none;
+    }
+    .type{
+        width: 100%;
+    }
+    .type-trie{
+        left: 0;
+        width: 100%;
+    }
+    .trie-actuel{
+        width: 100%;
+    }
+    .trier{
+        width: 24%;
+        margin: 0 1%;
+        display: block;
+    }
+    .contenu-page > input[type="radio"], #lgrille, #llistes{
+        display: none;
+    }
+    .vue-element1{
+        display: block;
+    }
+    .pagination{
+        display: block;
+        text-align: center;
+    }
+    .paginates{
+        justify-content: center;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .type{
+        flex-direction: column;
+    }
+    .block-trie{
+        width: 98%;
+        margin: 5px 1%;
+    }
+    .trier{
+        width: 98%;
+        margin: 5px 1%;
+        display: block;
+    }
+    .paquet-produits{
+        grid-template-columns: 1fr;
+    }
+    #igrille:checked ~ .produits .paquet-produits{
+        grid-template-columns: 1fr;
+    }
+}
